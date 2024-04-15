@@ -264,6 +264,7 @@ body:not(.user-is-tabbing) a:focus {
 .clientreview{
     border-radius: 50px;
     padding-bottom: 30px;
+    width: 900px;
 }
 
 .btn--pink:hover,
