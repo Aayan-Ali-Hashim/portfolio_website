@@ -264,6 +264,8 @@ body:not(.user-is-tabbing) a:focus {
 .clientreview{
     border-radius: 50px;
     padding-bottom: 30px;
+    
+    width: 900px;
 }
 
 .btn--pink:hover,
@@ -354,6 +356,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav__items {
     display: flex;
+    
     list-style: none;
 }
 
@@ -373,7 +376,7 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-@media(max-width: 300px) {
+@media(max-width: 400px) {
     .nav {
         font-size: var(--font-size-small);
     }
